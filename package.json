@@ -1,0 +1,39 @@
+{
+  "name": "@mapwhit/mapwhit-gl-js",
+  "version": "0.0.0",
+  "description": "mapwhit-gl-js exposes the same interface as maplibre-gl-js and mapbox-gl-js but in straightforward JavaScript.",
+  "author": {
+    "name": "Natalia Kowalczyk",
+    "email": "melitele@furkot.com",
+    "url": "https://melitele.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapwhit/mapwhit-gl-js.git"
+  },
+  "type": "module",
+  "exports": "./lib/mapwhit-gl-js.js",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "mapwhit-gl-js",
+    ""
+  ],
+  "dependencies": {
+    "@mapwhit/map-gestures": "^1.0.0",
+    "@mapwhit/map-style": "^0.0.9",
+    "@mapwhit/tilerenderer": "^0.51.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.5",
+    "canvas": "^3.1.2",
+    "gl": "^8.1.6",
+    "jsdom": "^26.1.0"
+  },
+  "scripts": {
+    "test": "make check"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ]
+}
