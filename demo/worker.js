@@ -1,0 +1,1 @@
+import '@mapwhit/tilerenderer/worker';
