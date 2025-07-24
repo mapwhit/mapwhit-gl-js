@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "esbuild": "^0.25.8"
+  }
+}

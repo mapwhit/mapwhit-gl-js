@@ -28,6 +28,8 @@ $ npm install --save mapwhit-gl-js
 </script>
 ```
 
+See [demo].
+
 ## License
 
 BSD-3-Clause © [Natalia Kowalczyk](https://melitele.me)
@@ -40,3 +42,5 @@ BSD-3-Clause © [Natalia Kowalczyk](https://melitele.me)
 
 [deps-image]: https://img.shields.io/librariesio/release/npm/mapwhit-gl-js
 [deps-url]: https://libraries.io/npm/mapwhit-gl-js
+
+[demo]: https://mapwhit.github.io/mapwhit-gl-js/
